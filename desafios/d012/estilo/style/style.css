@@ -41,7 +41,7 @@ article p#p2 {
     background-color: black;
     }
 
-article p#p5 {
+article p#p5     {
     color: white;
     background-color: black;
     }
@@ -63,4 +63,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
