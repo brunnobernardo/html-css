@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
@@ -14,10 +19,11 @@ header {
 header h1 {
     font-size: 4em;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
-    padding: 10px 0px 50px;
+    padding-bottom: 50px;
 }
 
 header a {
@@ -30,21 +36,27 @@ header a:hover {
     text-decoration: underline;
 }
 
-article {
-    font-weight: bold;
-    font-size: 1.8em;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
 }
 
-article p#p2 {
-    color: white;
-    background-color: black;
-    }
+section.normal {
+    background-color: white;
+    color:black
+}
 
-article p#p5     {
+section.imagem {
+    background-color: rgb(37, 37, 37);
     color: white;
-    background-color: black;
-    }
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 400px;
+}
 
 footer {
     font-size: 1.2em;
