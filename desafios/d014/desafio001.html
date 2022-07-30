@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th , tr , td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .especial{
+            background-color: grey;
+            color: #fff;
+            font-weight: bold;
+        }
+
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+        <thead class="especial">
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>10</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td>5</td>
+                <td>2</td>
+                <td>3,5</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>10</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>6</td>
+                <td>5</td>
+                <td>5,5</td>
+            </tr>
+
+            <tr class="especial">
+                <th colspan="4">Média de Exatas</th>
+                <td>6,5</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>8</td>
+                <td>7</td>
+                <td>7,5</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>6</td>
+                <td>7</td>
+                <td>6,5</td>
+            </tr>
+
+            <tr class="especial">
+                <th colspan="4">Média de Humanas</th>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
