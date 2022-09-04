@@ -1,0 +1,37 @@
+@charset "UTF-8"; 
+
+/*
+Todas as demais medias
+*/
+
+/*
+Typical device breakepoints 2022
+-------------------------------
+Mobile: 640 até 720
+Tablet: 768 até 992
+Desktop: 992 até 1240
+Tv: 
+------------------------------
+*/
+
+@media print {
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) { 
+
+    body {
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    /*Desktop*/
+    
+}
+
+@media screen and (min-width:1200px) {
+    /*Grandes telas*/
+    
+}
